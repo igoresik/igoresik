@@ -1,29 +1,45 @@
-<!-- HEADER -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,11,21,31&height=220&section=header&text=Georgy%20Esik&fontSize=70&fontAlignY=38&desc=Software%20Development%20Intern%20%7C%20Erasmus%2B%20in%20Cork%2C%20Ireland&descSize=20&descAlignY=60&descAlign=50&animation=fadeIn" width="100%" alt="Header" />
+<!-- HEADER BANNER -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,11,21,31&height=200&section=header&text=Georgy%20Esik&fontSize=68&fontAlignY=38&animation=fadeIn" width="100%" alt="Header Banner" />
+</p>
 
-  <p align="center">
-    <a href="https://linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-    <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-    <a href="https://github.com/igoresik"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
-  </p>
-</div>
+<h3 align="center">Software Development Intern | Erasmus+</h3>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=38BDF8&center=true&vCenter=true&width=650&height=50&lines=>+Erasmus%2B+Internship+in+Cork%2C+Ireland+%F0%9F%87%AE%F0%9F%87%AA;>+Based+in+Portugal+%F0%9F%87%B5%F0%9F%87%B9;>+Building+Scalable+%26+Reliable+Systems;>+Clean+Code+%7C+Continuous+Learning" alt="Typing SVG" />
+</p>
+
+<!-- CONNECT BUTTONS -->
+<p align="center">
+  <a href="https://github.com/igoresik">
+    <img src="https://skillicons.dev/icons?i=github" height="38" alt="GitHub" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME" target="_blank">
+    <img src="https://skillicons.dev/icons?i=linkedin" height="38" alt="LinkedIn" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:your-email@example.com">
+    <img src="https://skillicons.dev/icons?i=gmail" height="38" alt="Email" />
+  </a>
+</p>
 
 ---
 
-### 👨‍💻 About Me
+## ⚡ About Me
 
 ```yaml
-name: Georgy Esik
-current_status: Erasmus+ Internship in Cork, Ireland 🇮🇪
-origin: Portugal 🇵🇹
-fields_of_interest:
-  - Backend Architecture & Systems
-  - Software Engineering
-  - Tooling & Automation
-learning_mindset:
-  - Writing clean, maintainable code
-  - Solving complex architectural problems
-hobbies:
-  - Exploring tech stacks
-  - Gaming & Traveling
+identity:
+  name: Georgy Esik
+  role: Software Development Intern
+  location: Cork, Ireland 🇮🇪 (Erasmus+)
+  origin: Portugal 🇵🇹
+
+focus_areas:
+  - Backend Architecture & Scalable APIs
+  - Systems Programming & Performance
+  - Writing Clean, Maintainable, Tested Code
+
+currently_improving:
+  - Data Structures & Algorithms
+  - Containerization & CI/CD Pipelines
