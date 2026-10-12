@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="t d">
+  <title id="t">Georgy Esik</title>
+  <desc id="d">Junior software developer. Android, Python, networking and cybersecurity.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#171a38"/>
+    </linearGradient>
+
+    <!-- Repeating gradient whose period (600) matches the wave scroll distance, so the loop is seamless -->
+    <linearGradient id="waveA" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="0" spreadMethod="repeat">
+      <stop offset="0" stop-color="#ff5fa2">
+        <animate attributeName="stop-color" values="#ff5fa2;#7c5cff;#00d4ff;#ff5fa2" dur="12s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="0.5" stop-color="#7c5cff">
+        <animate attributeName="stop-color" values="#7c5cff;#00d4ff;#00e5a0;#7c5cff" dur="12s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#ff5fa2">
+        <animate attributeName="stop-color" values="#ff5fa2;#7c5cff;#00d4ff;#ff5fa2" dur="12s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="waveB" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="0" spreadMethod="repeat">
+      <stop offset="0" stop-color="#00d4ff">
+        <animate attributeName="stop-color" values="#00d4ff;#00e5a0;#ff5fa2;#00d4ff" dur="14s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="0.5" stop-color="#ffb347">
+        <animate attributeName="stop-color" values="#ffb347;#ff5fa2;#7c5cff;#ffb347" dur="14s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#00d4ff">
+        <animate attributeName="stop-color" values="#00d4ff;#00e5a0;#ff5fa2;#00d4ff" dur="14s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="nameFill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#bfe9ff"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+
+  <!-- soft drifting colour glows -->
+  <circle cx="200" cy="80" r="110" fill="#7c5cff" opacity="0.35" filter="url(#blur)">
+    <animate attributeName="cx" values="200;420;200" dur="18s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1000" cy="90" r="120" fill="#00d4ff" opacity="0.28" filter="url(#blur)">
+    <animate attributeName="cx" values="1000;800;1000" dur="22s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="620" cy="40" r="90" fill="#ff5fa2" opacity="0.2" filter="url(#blur)">
+    <animate attributeName="cy" values="40;90;40" dur="16s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- waves: back layer scrolls right-to-left, front layer left-to-right -->
+  <g opacity="0.55">
+    <path fill="url(#waveB)" d="M0 258 Q150 222 300 258 T600 258 T900 258 T1200 258 T1500 258 T1800 258 T2100 258 T2400 258 V300 H0 Z">
+      <animateTransform attributeName="transform" type="translate" from="-600 0" to="0 0" dur="16s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g opacity="0.8">
+    <path fill="url(#waveA)" d="M0 272 Q150 244 300 272 T600 272 T900 272 T1200 272 T1500 272 T1800 272 T2100 272 T2400 272 V300 H0 Z">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-600 0" dur="9s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- text -->
+  <g font-family="'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif" text-anchor="middle">
+    <text x="600" y="108" font-size="68" font-weight="700" fill="url(#nameFill)" letter-spacing="1">Georgy Esik</text>
+    <text x="600" y="152" font-size="26" fill="#c9d1d9" letter-spacing="3">JUNIOR SOFTWARE DEVELOPER</text>
+  </g>
+
+  <!-- rotating focus areas -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="24" text-anchor="middle" fill="#7fdcff">
+    <text x="600" y="206" opacity="1">&gt; Android apps · Java · Firebase
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.04;0.29;0.33;1" dur="12s" repeatCount="indefinite"/>
+    </text>
+    <text x="600" y="206" opacity="0">&gt; Python · SQL · Data analysis
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.33;0.37;0.62;0.66;1" dur="12s" repeatCount="indefinite"/>
+    </text>
+    <text x="600" y="206" opacity="0">&gt; Networking · CCNA · Cybersecurity
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.66;0.70;0.93;0.97;1" dur="12s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>
