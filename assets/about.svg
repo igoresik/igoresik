@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-label="About me: junior software developer, interested in software for quite some time, likes writing code, mostly front end, also back end and other software">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b3a"/></linearGradient>
+<linearGradient id="bd" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="0" spreadMethod="repeat">
+<stop offset="0" stop-color="#ff5fa2"/><stop offset="0.5" stop-color="#00d4ff"/><stop offset="1" stop-color="#ff5fa2"/>
+<animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="600 0" dur="8s" repeatCount="indefinite"/></linearGradient>
+<clipPath id="c0"><rect x="46" y="94" width="0" height="36"><animate attributeName="width" from="0" to="238" dur="0.78s" begin="0.4s" fill="freeze"/></rect></clipPath>
+<clipPath id="c1"><rect x="46" y="130" width="0" height="36"><animate attributeName="width" from="0" to="555" dur="1.44s" begin="1.3s" fill="freeze"/></rect></clipPath>
+<clipPath id="c2"><rect x="46" y="166" width="0" height="36"><animate attributeName="width" from="0" to="613" dur="1.56s" begin="2.2s" fill="freeze"/></rect></clipPath>
+<clipPath id="c3"><rect x="46" y="202" width="0" height="36"><animate attributeName="width" from="0" to="368" dur="1.05s" begin="3.1s" fill="freeze"/></rect></clipPath>
+<clipPath id="c4"><rect x="46" y="238" width="0" height="36"><animate attributeName="width" from="0" to="325" dur="0.96s" begin="4.0s" fill="freeze"/></rect></clipPath>
+<clipPath id="c5"><rect x="46" y="274" width="0" height="36"><animate attributeName="width" from="0" to="598" dur="1.53s" begin="4.9s" fill="freeze"/></rect></clipPath>
+<clipPath id="c6"><rect x="46" y="310" width="0" height="36"><animate attributeName="width" from="0" to="37" dur="0.36s" begin="5.8s" fill="freeze"/></rect></clipPath>
+</defs>
+<rect x="2" y="2" width="896" height="356" rx="22" fill="url(#bg)" stroke="url(#bd)" stroke-width="2"/>
+<rect x="2" y="2" width="896" height="52" rx="22" fill="#ffffff" opacity="0.05"/>
+<circle cx="38" cy="28" r="8" fill="#ff5f57"/><circle cx="64" cy="28" r="8" fill="#febc2e"/><circle cx="90" cy="28" r="8" fill="#28c840"/>
+<text x="450" y="35" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="18" fill="#8b949e">about.js</text>
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="24" xml:space="preserve">
+<g clip-path="url(#c0)"><text x="48" y="118" xml:space="preserve"><tspan fill="#ff7b72">const </tspan><tspan fill="#d2a8ff">georgy</tspan><tspan fill="#c9d1d9"> = {</tspan></text></g>
+<g clip-path="url(#c1)"><text x="48" y="154" xml:space="preserve"><tspan fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">role</tspan><tspan fill="#c9d1d9">:   </tspan><tspan fill="#a5d6ff">"Junior Software Developer"</tspan><tspan fill="#c9d1d9">,</tspan></text></g>
+<g clip-path="url(#c2)"><text x="48" y="190" xml:space="preserve"><tspan fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">into</tspan><tspan fill="#c9d1d9">:   </tspan><tspan fill="#a5d6ff">"software, for quite some time"</tspan><tspan fill="#c9d1d9">,</tspan></text></g>
+<g clip-path="url(#c3)"><text x="48" y="226" xml:space="preserve"><tspan fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">likes</tspan><tspan fill="#c9d1d9">:  </tspan><tspan fill="#a5d6ff">"writing code"</tspan><tspan fill="#c9d1d9">,</tspan></text></g>
+<g clip-path="url(#c4)"><text x="48" y="262" xml:space="preserve"><tspan fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">mostly</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#a5d6ff">"Front end"</tspan><tspan fill="#c9d1d9">,</tspan></text></g>
+<g clip-path="url(#c5)"><text x="48" y="298" xml:space="preserve"><tspan fill="#c9d1d9">  </tspan><tspan fill="#79c0ff">also</tspan><tspan fill="#c9d1d9">:   [</tspan><tspan fill="#a5d6ff">"Back end"</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">"Other software"</tspan><tspan fill="#c9d1d9">],</tspan></text></g>
+<g clip-path="url(#c6)"><text x="48" y="334" xml:space="preserve"><tspan fill="#c9d1d9">};</tspan></text></g>
+<rect x="82.8" y="314" width="12" height="24" fill="#00d4ff"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.6;0.61;0.8;1" dur="1.2s" begin="7s" repeatCount="indefinite"/></rect>
+</g>
+</svg>

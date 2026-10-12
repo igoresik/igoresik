@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="t d">
   <title id="t">Georgy Esik</title>
-  <desc id="d">Junior software developer. Android, Python, networking and cybersecurity.</desc>
+  <desc id="d">Junior software developer. Front end, back end and Android apps.</desc>
 
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -73,13 +73,13 @@
 
   <!-- rotating focus areas -->
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="24" text-anchor="middle" fill="#7fdcff">
-    <text x="600" y="206" opacity="1">&gt; Android apps · Java · Firebase
+    <text x="600" y="206" opacity="1">&gt; Front end · HTML · CSS · JavaScript
       <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.04;0.29;0.33;1" dur="12s" repeatCount="indefinite"/>
     </text>
-    <text x="600" y="206" opacity="0">&gt; Python · SQL · Data analysis
+    <text x="600" y="206" opacity="0">&gt; Back end · Java · Python · SQL
       <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.33;0.37;0.62;0.66;1" dur="12s" repeatCount="indefinite"/>
     </text>
-    <text x="600" y="206" opacity="0">&gt; Networking · CCNA · Cybersecurity
+    <text x="600" y="206" opacity="0">&gt; Android apps · Firebase · Git
       <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.66;0.70;0.93;0.97;1" dur="12s" repeatCount="indefinite"/>
     </text>
   </g>
