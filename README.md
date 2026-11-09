@@ -5,7 +5,7 @@
 <h3 align="center">📍 Erasmus intern in Cork.</h3>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/georgy-esik-6a83a843b/">
+  <a href="https://www.linkedin.com/in/georgyesik/">
     <img src="https://skillicons.dev/icons?i=linkedin" height="45" alt="LinkedIn" />
   </a>
   &nbsp;&nbsp;&nbsp;
