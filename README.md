@@ -1,5 +1,9 @@
 <div align="center">
-  <img src="./assets/header.svg" alt="Georgy Esik, junior software developer" width="100%">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/header.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg">
+    <img src="./assets/header.svg" alt="Georgy Esik, junior software developer" width="100%">
+  </picture>
 </div>
 
 <h3 align="center">📍 Erasmus intern in Cork.</h3>
@@ -21,10 +25,14 @@
 <div align="center">
   <img src="./assets/title-about.svg" alt="About me" width="300">
   <br><br>
-  <img src="./assets/about.svg" alt="Junior software developer. Into software for quite some time, likes writing code. Mostly front end, also back end and other software." width="760">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/about.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/about-light.svg">
+    <img src="./assets/about.svg" alt="Junior software developer. I build software people can download and use. Mostly Python, also Java and Android, and Next.js for the web." width="760">
+  </picture>
   <p>
-    I've been into software for quite some time, and I just like to code.<br>
-    Mostly <b>front end</b>, but I can work with <b>back end</b> and other kinds of software too.
+    I build software people can download and use.<br>
+    Mostly <b>Python</b>, also <b>Java</b> and <b>Android</b>, and <b>Next.js</b> for the web.
   </p>
 </div>
 
