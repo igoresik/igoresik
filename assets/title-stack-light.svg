@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="84" viewBox="0 0 860 84" role="img" aria-label="Languages, Frameworks and Tools">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#000" stop-opacity="0"/><stop offset="0.5" stop-color="#000" stop-opacity="0.5"/><stop offset="1" stop-color="#000" stop-opacity="0"/></linearGradient></defs>
+<text x="430.0" y="22" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Courier New', monospace" font-size="13" letter-spacing="5" fill="#6b6b6b">02</text>
+<text x="430.0" y="58" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="0.5" fill="#111111">Languages, Frameworks and Tools</text>
+<rect x="340.0" y="72" width="180" height="2" fill="url(#g)"/>
+</svg>

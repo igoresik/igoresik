@@ -23,7 +23,11 @@
 </p>
 
 <div align="center">
-  <img src="./assets/title-about.svg" alt="About me" width="300">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/title-about.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/title-about-light.svg">
+    <img src="./assets/title-about.svg" alt="About me" width="300">
+  </picture>
   <br><br>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/about.svg">
@@ -37,13 +41,21 @@
 </div>
 
 <div align="center">
-  <img src="./assets/title-stack.svg" alt="Languages, Frameworks and Tools" width="660">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/title-stack.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/title-stack-light.svg">
+    <img src="./assets/title-stack.svg" alt="Languages, Frameworks and Tools" width="660">
+  </picture>
   <br><br>
   <img src="./assets/stack.svg" alt="HTML, CSS, JavaScript, Java, Python, SQL, Android Studio, Firebase, Git, GitHub, VS Code, Linux" width="100%">
 </div>
 
 <div align="center">
-  <img src="./assets/title-activity.svg" alt="Commit activity" width="400">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/title-activity.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/title-activity-light.svg">
+    <img src="./assets/title-activity.svg" alt="Commit activity" width="400">
+  </picture>
   <br><br>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/igoresik/igoresik/output/pacman-contribution-graph-dark.svg">
